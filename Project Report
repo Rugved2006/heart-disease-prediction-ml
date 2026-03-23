@@ -1,0 +1,136 @@
+# Heart Disease Prediction using Machine Learning
+
+## 1. Introduction
+
+Heart disease is one of the leading causes of death worldwide. Early detection and diagnosis can significantly improve patient outcomes and reduce mortality rates. With the advancement of machine learning, it is now possible to analyze medical data and predict the likelihood of heart disease efficiently.
+
+This project focuses on building a machine learning model that can predict whether a person has heart disease based on various clinical parameters such as age, cholesterol level, blood pressure, and heart rate.
+
+---
+
+## 2. Problem Statement
+
+The objective of this project is to develop a predictive system that can determine whether a patient is likely to have heart disease using machine learning techniques and medical data.
+
+---
+
+## 3. Objectives
+
+* To analyze heart disease data using machine learning
+* To build predictive models for classification
+* To compare performance of different algorithms
+* To visualize model performance using graphs
+
+---
+
+## 4. Dataset Description
+
+The dataset used in this project contains medical attributes of patients. Each record represents a patient and includes the following features:
+
+* Age: Age of the patient
+* Sex: Gender (0 = Female, 1 = Male)
+* Chest Pain Type (cp)
+* Resting Blood Pressure (trestbps)
+* Cholesterol Level (chol)
+* Fasting Blood Sugar (fbs)
+* Resting ECG Results (restecg)
+* Maximum Heart Rate (thalach)
+* Exercise Induced Angina (exang)
+* ST Depression (oldpeak)
+* Slope of ST Segment (slope)
+* Number of Major Vessels (ca)
+* Thalassemia (thal)
+* Target: Presence of heart disease (0 = No, 1 = Yes)
+
+---
+
+## 5. Methodology
+
+### 5.1 Data Preprocessing
+
+* Loaded dataset using Pandas
+* Separated features and target variable
+* Split data into training and testing sets
+* Applied feature scaling using StandardScaler
+
+### 5.2 Model Implementation
+
+#### 1. SGDClassifier
+
+* Used for iterative learning
+* Trained over multiple epochs
+* Accuracy monitored for each epoch
+* Training time recorded
+
+#### 2. Random Forest Classifier
+
+* Used for improved accuracy
+* Ensemble learning method
+* Provides better generalization
+
+---
+
+## 6. Results
+
+* SGDClassifier Accuracy: Approximately 70–75%
+* Random Forest Accuracy: Approximately 85–90%
+
+The accuracy of the SGD model varied across epochs but stabilized after applying feature scaling. The Random Forest model provided significantly better and more stable results.
+
+---
+
+## 7. Visualization
+
+A graph of **Accuracy vs Epochs** was plotted to analyze the performance of the SGDClassifier over time. This helps in understanding how the model learns and improves with iterations.
+
+---
+
+## 8. Challenges Faced
+
+* Initial instability in model accuracy
+* Need for feature scaling
+* Handling different ranges of input data
+* Choosing appropriate machine learning models
+
+---
+
+## 9. Conclusion
+
+This project demonstrates how machine learning can be effectively used to predict heart disease. The use of multiple models and feature scaling significantly improved performance. The Random Forest model achieved higher accuracy, making it more suitable for this problem.
+
+Machine learning can assist healthcare professionals in early diagnosis and decision-making.
+
+---
+
+## 10. Future Scope
+
+* Use larger and more diverse datasets
+* Implement deep learning models
+* Build a web-based interface for real-time predictions
+* Integrate with healthcare systems
+
+---
+
+## 11. Tools and Technologies
+
+* Python
+* Pandas
+* Scikit-learn
+* Matplotlib
+
+---
+
+## 12. References
+
+* UCI Machine Learning Repository
+* Scikit-learn Documentation
+* Research papers on heart disease prediction
+
+---
+
+## 13. Author
+
+Name: [Rugved shrikant choudhari 25BCE10502]
+
+
+Course: Fundamentals of AI and ML
