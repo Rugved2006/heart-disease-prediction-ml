@@ -1,4 +1,5 @@
 # heart-disease-prediction-ml
+“To install dependencies: pip install -r requirements.txt”
 # 🧠 Heart Disease Prediction using Machine Learning
 
 ## 📌 Overview
