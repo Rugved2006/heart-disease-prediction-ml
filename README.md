@@ -104,6 +104,6 @@ This project demonstrates how machine learning can be used to analyze medical da
 
 ## 👨‍💻 Author
 
-* Your Name
+* Your Rugved shrikant choudhari 25BCE10502
 
 ---
